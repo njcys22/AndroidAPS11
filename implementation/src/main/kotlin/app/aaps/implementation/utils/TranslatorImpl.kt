@@ -151,7 +151,7 @@ class TranslatorImpl @Inject internal constructor(
         TE.Type.PUMP_BATTERY_CHANGE     -> rh.gs(R.string.pump_battery_change)
         TE.Type.SENSOR_STARTED          -> rh.gs(R.string.careportal_cgmsensorstart)
         TE.Type.SENSOR_STOPPED          -> rh.gs(R.string.careportal_cgm_sensor_stop)
-        TE.Type.SENSOR_CHANGE           -> rh.gs(R.string.传感器插入)
+        TE.Type.SENSOR_CHANGE           -> rh.gs(R.string.cgm_sensor_insert)
         TE.Type.INSULIN_CHANGE          -> rh.gs(R.string.careportal_insulin_cartridge_change)
         TE.Type.DAD_ALERT               -> rh.gs(R.string.careportal_dad_alert)
         TE.Type.TEMPORARY_BASAL_START   -> rh.gs(R.string.careportal_tempbasalstart)
